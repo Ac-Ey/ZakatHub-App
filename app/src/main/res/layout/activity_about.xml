@@ -103,7 +103,7 @@
             android:autoLink="web"
             android:background="@drawable/result_border"
             android:padding="10dp"
-            android:text="https://github.com/yourusername/zakathub"
+            android:text="https://github.com/Ac-Ey/ZakatHub-App"
             android:textColor="#185FA5"
             android:textSize="14sp" />
 
