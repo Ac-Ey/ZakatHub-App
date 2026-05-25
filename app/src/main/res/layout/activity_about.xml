@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAF8"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="12dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Zakat Gold Calculator"
+            android:textColor="#0F9D58"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Version 1.0 · ICT602"
+            android:textColor="#888780"
+            android:textSize="13sp" />
+
+        <!-- Developer Info -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="DEVELOPER INFO"
+            android:textColor="#0F9D58"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/result_border"
+            android:padding="10dp"
+            android:text="Name: YASSER YAHYA"
+            android:textColor="#2C2C2A"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/result_border"
+            android:padding="10dp"
+            android:text="Student No: 2025158047"
+            android:textColor="#2C2C2A"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/result_border"
+            android:padding="10dp"
+            android:text="Group: ICT602 – Group B"
+            android:textColor="#2C2C2A"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/result_border"
+            android:padding="10dp"
+            android:text="Programme: RCDCS251"
+            android:textColor="#2C2C2A"
+            android:textSize="14sp" />
+
+        <!-- Clickable URL -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="WEBSITE"
+            android:textColor="#0F9D58"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:autoLink="web"
+            android:background="@drawable/result_border"
+            android:padding="10dp"
+            android:text="https://github.com/yourusername/zakathub"
+            android:textColor="#185FA5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2026 Yasser. All rights reserved."
+            android:textColor="#B4B2A9"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+</ScrollView>
