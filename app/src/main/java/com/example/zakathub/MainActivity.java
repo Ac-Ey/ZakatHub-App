@@ -116,6 +116,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.action_share) {
+            // Share the GitHub URL
+            Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Zakat Gold Calculator");
+            shareIntent.putExtra(Intent.EXTRA_TEXT,
+                    "Check out my Zakat Gold Calculator app!\n\nhttps://github.com/Ac-Ey/ZakatHub");
+            startActivity(Intent.createChooser(shareIntent, "Share via"));
+            return true;
+        }
         if (item.getItemId() == R.id.action_about) {
             Intent intent = new Intent(this, AboutActivity.class);
             startActivity(intent);
