@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:text="Zakat Gold Calculator"
+            android:text="Zakat Hub"
             android:textColor="#0F9D58"
             android:textSize="20sp"
             android:textStyle="bold" />
